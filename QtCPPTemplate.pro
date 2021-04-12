@@ -44,3 +44,6 @@ DISTFILES += \
     .gitignore \
     LICENSE \
     README.md
+
+RESOURCES += \
+    app.qrc
