@@ -12,6 +12,9 @@ MainWindow::MainWindow(QWidget *parent)
     this->setWindowTitle("Template C++ Qt APP");
     // set icon
     this->setWindowIcon(QIcon(":/atlas/logo.png"));
+    // remove window frame
+    //this->setWindowFlags(Qt::CustomizeWindowHint);
+
 }
 
 MainWindow::~MainWindow()
